@@ -1,0 +1,36 @@
+.repo-item-main {
+  border: 1px solid;
+  margin-bottom: 10px;
+  pad: 5px;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border-radius: 10px;
+  width: 100%;
+}
+.repo-button-container {
+  display: flex;
+  align-items: center;
+}
+.owner-avatar {
+  height: 100px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.repo-description {
+  color: #ffffff;
+  margin-right: 10px;
+}
+.repo-details-card {
+  text-align: left;
+}
+.additional-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.repo-info {
+  color: #ffffff;
+  margin-right: 10px;
+  
+}

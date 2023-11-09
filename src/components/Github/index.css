@@ -1,0 +1,38 @@
+.main-container {
+  background-color: #212124;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+.main-heading {
+  color: #d5d5db;
+  font-family: 'Garamond';
+}
+.loader {
+  display: flex;
+  height: inherit;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.repos-main-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  width: 100%;
+  min-height: 100%;
+  background-color: #444445;
+  padding: 10px;
+}
+.username {
+  color: #ffffff;
+}
+.most-starred-heading {
+  color: #ffffff;
+  text-align: center;
+}
+.repo-list-card {
+  flex-grow: 1;
+}
